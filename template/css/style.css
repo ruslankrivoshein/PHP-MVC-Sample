@@ -1,0 +1,78 @@
+body {
+    padding-top: 50px;
+}
+
+button {
+    outline: none !important;
+}
+
+header .container {
+    position: relative;
+}
+
+header .login-panel {
+    display: none;
+    position: absolute;
+    right: 0;
+    padding: 10px;
+    background: #222;
+}
+
+section .add-task-btn {
+    margin: 20px 0;
+}
+
+section .modal-header .close {
+    float: right;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: .2;
+}
+
+section .modal-body .group .load-img-btn {
+    float: left;
+}
+
+section .modal-body .group .preview-btn {
+    float: right;
+}
+
+section .modal-body .preview {
+    display: none;
+    clear: both;
+    border-left: 3px solid rgb(34, 34, 34);
+    padding-left: 15px;
+}
+
+section .modal-body .preview-name, .preview-email {
+    font-size: 1.25em;
+    margin-bottom: 5px;
+}
+
+section .modal-body .preview-text {
+    font-size: 1.125em;
+    line-height: 1.25em;
+    font-family: monospace;
+    margin: 10px;
+}
+
+section .modal-body .preview-image {
+    width: 200px;
+}
+
+section .table, th {
+    text-align: center;
+}
+
+section .table thead th:hover {
+    cursor: pointer;
+    color: #666;
+}
+
+section .ajax-table .pages {
+    text-align: center;
+}
